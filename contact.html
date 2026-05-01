@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Quantam Core Studio</title>
+    <meta name="description" content="Get in touch with Quantam Core Studio. We are located in Bongaon, West Bengal, India.">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <a href="index.html" class="logo">Quantam<span>Core</span></a>
+        <div class="hamburger">☰</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="margin-top: 80px;">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 style="font-family: var(--font-heading); font-size: 1.8rem; margin-bottom: 20px;">Let's Build Something Epic</h3>
+                <p>Have a game concept, an app idea, or need custom software solutions? Drop us a message, and our team will get back to you shortly.</p>
+                
+                <div style="margin-top: 40px;">
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> Bongaon, North 24 Parganas, West Bengal, India</p>
+                    <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> contact@quantamcore.studio</p>
+                </div>
+
+                <div style="margin-top: 30px; display: flex; gap: 15px;">
+                    <a href="#" style="color: var(--neon-cyan); font-size: 1.5rem; transition: transform 0.3s;"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" style="color: var(--neon-cyan); font-size: 1.5rem; transition: transform 0.3s;"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" style="color: var(--neon-cyan); font-size: 1.5rem; transition: transform 0.3s;"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" style="color: var(--neon-cyan); font-size: 1.5rem; transition: transform 0.3s;"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been sent.');">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: 5px; margin-top: 10px;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-copy">&copy; 2026 Quantam Core Studio. All Rights Reserved.</div>
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
